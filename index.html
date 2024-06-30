@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/12a3e71123.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree Serif">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro</title>
+</head>
+<body>
+   <section style="user-select: none">
+        <div class="container">
+            <h1>pomodoro</h1>
+            <div class="painel">
+                <p id="pomodoro" style="color:#ee7276;">Pomodoro</p>
+                <p id="shortbreak">Short Break</p>
+                <p id="longbreak">Long Break</p>
+            </div>
+
+            <div class="timer">
+                <div class="circle">
+                    <div class="time">
+                        <p class="plusminus" id="plusminute"><i class="fa-solid fa-plus"></i></p>
+                        <p id="minute">25</p>
+                        <p class="plusminus" id="minusminute"><i class="fa-solid fa-minus"></i></p>
+                        <p id="colon">:</p>
+                        <p id="second">00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="start"><i class="fa-solid fa-play"></i></button>
+                <button id="restart"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
